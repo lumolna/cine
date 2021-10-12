@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--- 1. archivo reset-->
+    <link rel="stylesheet" href="css/reset.css">
+    <!--- 2. Estilos de tipografia o iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--- 3. Estilo general-->
+    <link rel="stylesheet" href="css/general.css">
+
+    <!--- 4. Estilos especificos de la pagins-->
+    <link rel="stylesheet" href="css/index.css">
+
+
+    <title>La Boleteria</title>
+
+</head>
+
+<body>
+
+    <header class="topnav" id="myTopnav">
+
+        <div class="logo-container">
+            <span class="material-icons">
+                grade
+            </span>
+        </div>
+
+        <nav>
+            <a href="#home" class="active">Inicio</a>
+            <a href="#news">Cines</a>
+            <a href="#contact">Peliculas</a>
+            <a href="#about">Ingresar</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+
+    </header>
+
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img/venom.png" style="width:100%">
+            <div class="hero-text">
+                <h1>Nombre pelicula</h1>
+                <p>detalles de pelicula</p>
+                <button class="botonslide" >Encontrar funcion</button>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img/venom.png" style="width:100%">
+            <div class="hero-text">
+                <h1>Nombre pelicula</h1>
+                <p>detalles de pelicula</p>
+                <button class="botonslide">Encontrar funcion</button>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img/venom.png" style="width:100%">
+            <div class="hero-text">
+                <h1>Nombre pelicula</h1>
+                <p>detalles de pelicula</p>
+                <button class="botonslide" >Encontrar funcion</button>
+            </div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+    </div>
+    <br>
+
+    <div class="containerblock">
+
+        <button class="button button2">Iniciar Seccion/ Registrarse</button>
+
+    </div>
+
+
+    <div class="titulo3">
+        <h1>Tus cines favoritos en un mismo lugar</h1>
+      </div>
+
+    <div class="logos">
+        <div class="row">
+            <div class="column">
+                <img src="img/logo.jpg" alt="Snow" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="img/ccm.jpg" alt="Forest" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="img/cinemark.jpg" alt="Mountains" style="width:100%">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="titulo3">
+        <h1>Proximamente en cines</h1>
+      </div>
+
+
+    <div class="Carousel">
+
+        <div class="slick-list" id="slick-list">
+          <button class="slick-arrow slick-prev" id="button-prev" data-button="button-prev"
+            onclick="app.processingButton(event)">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left"
+              class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 320 512">
+              <path fill="currentColor"
+                d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z">
+              </path>
+            </svg>
+          </button>
+          <div class="slick-track" id="track">
+            <div class="slick">
+              <div>
+                <a href="/">
+                  <h4><small>Share Your Message</small>Watch</h4>
+                  <picture>
+                    <img src="img/venomv.jpg" alt="Image">
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <div class="slick">
+              <div>
+                <a href="/">
+                  <h4><small>Share Your Message</small>Watch</h4>
+                  <picture>
+                    <img src="img/venomv.jpg" alt="Image">
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <div class="slick">
+              <div>
+                <a href="/">
+                  <h4><small>Share Your Message</small>Watch</h4>
+                  <picture>
+                    <img src="img/venomv.jpg" alt="Image">
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <div class="slick">
+              <div>
+                <a href="/">
+                  <h4><small>Share Your Message</small>Watch</h4>
+                  <picture>
+                    <img src="img/venomv.jpg" alt="Image">
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <div class="slick">
+              <div>
+                <a href="/">
+                  <h4><small>Share Your Message</small>Watch</h4>
+                  <picture>
+                    <img src="img/venomv.jpg" alt="Image">
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <div class="slick">
+              <div>
+                <a href="/">
+                  <h4><small>Share Your Message</small>Watch</h4>
+                  <picture>
+                    <img src="img/venomv.jpg" alt="Image">
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <div class="slick">
+              <div>
+                <a href="/">
+                  <h4><small>Share Your Message</small>Watch</h4>
+                  <picture>
+                    <img src="img/venomv.jpg" alt="Image">
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <div class="slick">
+              <div>
+                <a href="/">
+                  <h4><small>Share Your Message</small>Watch</h4>
+                  <picture>
+                    <img src="img/venomv.jpg" alt="Image">
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <div class="slick">
+              <div>
+                <a href="/">
+                  <h4><small>Share Your Message</small>Watch</h4>
+                  <picture>
+                    <img src="img/venomv.jpg" alt="Image">
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <div class="slick">
+              <div>
+                <a href="/">
+                  <h4><small>Share Your Message</small>Watch</h4>
+                  <picture>
+                    <img src="img/venomv.jpg" alt="Image">
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <div class="slick">
+              <div>
+                <a href="/">
+                  <h4><small>Share Your Message</small>Watch</h4>
+                  <picture>
+                    <img src="img/venomv.jpg" alt="Image">
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <div class="slick">
+              <div>
+                <a href="/">
+                  <h4><small>Share Your Message</small>Watch</h4>
+                  <picture>
+                    <img src="img/venomv.jpg" alt="Image">
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <div class="slick">
+              <div>
+                <a href="/">
+                  <h4><small>Share Your Message</small>Watch</h4>
+                  <picture>
+                    <img src="img/venomv.jpg" alt="Image">
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <div class="slick">
+              <div>
+                <a href="/">
+                  <h4><small>Share Your Message</small>Watch</h4>
+                  <picture>
+                    <img src="img/venomv.jpg" alt="Image">
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <div class="slick">
+              <div>
+                <a href="/">
+                  <h4><small>Share Your Message</small>Watch</h4>
+                  <picture>
+                    <img src="img/venomv.jpg" alt="Image">
+                  </picture>
+                </a>
+              </div>
+            </div>
+          </div>
+          <button class="slick-arrow slick-next" id="button-next" data-button="button-next"
+            onclick="app.processingButton(event)">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+              class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 320 512">
+              <path fill="currentColor"
+                d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
+              </path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+    <div class="contenedor_covid">
+
+        <img class= "covidimg"src="img/covid.jpg" width="460" height="345">
+
+        <div class="texto">
+            <div class="parrafo1">
+            <p> This text is styled with some of the text formatting properties. The heading uses the text-align, text-transform, and color properties.
+             The paragraph is indented, aligned, and the space between characters is specified. The underline is removed from this colored
+            </div> 
+             <div class="boton3">
+             <button class="button button3">Mas información</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <p>Footer</p>
+      </div>
+
+
+
+
+    <script src="js/controlador.js "></script>
+
+</body>
+
+</html

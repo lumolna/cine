@@ -1,0 +1,409 @@
+* {box-sizing:border-box}
+/* seccion 1*/
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+  
+  .active, .dot:hover {
+    background-color: #e2b633;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+
+
+  
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Fin seccion 1*/
+
+
+/* Fin seccion 1*/
+.containerblock{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+
+}
+.button {
+    background-color: #40739e; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    max-height: 30%;
+  }
+
+
+  .button2:hover, .button3:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+/* Fin seccion 1*/
+
+
+
+
+
+/* Fin seccion 1*/
+  .logos{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 40px;
+    }
+    
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    /* Fin seccion 1*/
+
+
+
+
+
+
+
+/* Fin seccion 1*/
+    .Carousel{
+        width: 100%;
+        margin: 0px ;
+        margin-top: 40px;
+      }
+      .Carousel h2{
+        font-size: 26px;
+        line-height: 38px;
+        padding-bottom: 24px;
+        opacity: .9;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        text-align: center;
+      }
+      
+      /* images */
+      
+      .slick-list{
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        height: 304px;
+        padding: 10px 0px;
+        margin: 0px auto;
+        max-width: 90vw;
+        overflow: hidden;
+      }
+      .slick-track{
+        position: relative;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        transition: .5s ease-in-out;
+      }
+      .slick{
+        position: relative;
+        width: 275px;
+        padding: 0 18px;
+        float: left;
+        box-sizing: border-box;
+        display: flex;
+        height: 100%;
+      }
+      .slick h4{
+        position: absolute;
+        z-index: 1;
+        font-size: 22px;
+        line-height: 23px;
+        color: #fff;
+        padding: 15px;
+      }
+      .slick h4 small{
+        font-size: 15px;
+        display: block;
+      }
+      .slick a img{
+        object-fit: cover;
+        height: 300px;
+        width: 100%;
+        border-radius: 4px;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
+        transition: .3s ease-in-out;
+      }
+      .slick a img:hover{
+        opacity: .85;
+      }
+      
+      /* buttons */
+      
+      .slick-arrow{
+        border-radius: 30px;
+        background-color: #fff;
+        position: absolute;
+        z-index: 4;
+        width: 48px;
+        height: 48px;
+        text-align: center;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+        border: 0;
+        cursor: pointer;
+      }
+      .slick-arrow:focus{
+        outline: 0;
+      }
+      .slick-arrow svg{
+        width: 12px;
+        height: 100%;
+        color: rgba(0,0,0,.7);
+      }
+      .slick-prev{
+        left: 0px;
+      }
+      .slick-next{
+        right: 0px;
+      }
+
+      /* Fin seccion 1*/
+
+
+
+      .contenedor_covid{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 20px;
+
+     }
+
+
+      .covidimg {
+        max-width: 100%;
+        height: auto;
+        margin: 20px;
+      }
+
+
+
+
+      .texto {
+        display: grid;  
+        grid-template-columns: 1;
+        grid-template-rows: 3;
+        
+        padding: 8px;
+        width: 80%;
+        margin: 20px;
+      }
+      
+      
+      p {
+        
+        text-indent: 50px;
+        text-align: justify;
+        letter-spacing: 3px;
+      }
+
+      .boton3{
+       
+        display: flex;
+        justify-content: center;
+        grid-row-start: 3;
+
+    }
+
+    .parrafo1{
+        
+        grid-row-start: 2;
+        
+    }
+
+
+
+    .titulo3{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+
+    }
+
+
+    .botonslide {
+        background-color: #e1b12c; 
+        border: none;
+        color: black;
+        padding: 10px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      }
+
+
+     
+      
